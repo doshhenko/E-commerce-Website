@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+}
+
+.module-left, .navbar-brand, .second, .name-mission, .horaio, .item, .nav-link, .final, .vereinbaren {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.module-left {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid  #cac6c6;
+    font-size: 13px;
+    padding: 9px;
+}
+
+.address {
+    margin-right: 30px;
+    margin-left: 40px;
+    padding: 2px;
+}
+
+.email, .navbar-brand, .title, .second, .name-mission, .nav-link, .final, .vereinbaren {
+    color: #2188bb;
+}
+.email {
+    text-decoration: none;
+    padding: 2px;
+}
+
+.envelope {
+    padding: 8px;
+}
+
+.navbar-nav {
+    font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 25px;    
+}
+
+.navbar {
+    border-bottom: 1px solid #cac6c6;
+}
+
+.navbar-brand {
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.gray, .address, .horaio, .item, .mission-address {
+    color: #666666;
+    }
+
+.title, .centr {
+    font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+}
+
+.bg-dark {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.breadcrumb {
+    display: flex;
+    justify-content: center;
+}
+
+.second {
+    font-size: 16px;  
+}
+
+.mission {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.mission-name {
+    margin-left: 5%;
+
+}
+
+.name-mission {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.size {
+    font-size: 70px;
+}
+
+.horaio {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.item {
+    font-size: 17px;
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text-input{
+    background-color: #EEEDEB;
+    border: 2px solid #2188bb;
+    padding: 23px;
+    width: 50vh;
+    height: 30px;
+    color: #3E3232;
+}
+
+input, textarea{
+    font-size: 17px;
+    color: #3E3232;
+}
+
+.vereinbaren{
+    width: 50vh;
+    height: 50px;
+    background-color: #ffffff;
+    border: 2px solid #2188bb;
+}
+
+.vereinbaren:hover{
+    background-color: #2188bb;
+    color: #ffffff;
+}
+
+
+@media all and (max-width:1280px){
+    .mission {
+        flex-wrap: wrap;
+    }
+    .vereinbaren{
+        margin-bottom: 5vh;
+    }
+
+}
+
+@media all and (max-width:820px) {
+    .parent {
+        padding: 0;
+    }
+    
+    .imagen, .space {
+        margin-left: 5%;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width:540px) {
+    .mapa {
+        width: 100%;
+    }
+
+    .col-6 {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+    .email {
+        display: none;
+    }
+    .text-input,.vereinbaren{
+        width: 37vh;
+    }
+}
+
+
+@media all and (max-width:344px) {
+    .text-input,.vereinbaren{
+        width: 30vh;
+    }
+}

@@ -1,0 +1,395 @@
+body {
+    margin: 0;
+}
+
+.module-left, .navbar-brand, .name-mission, .title, .container, .btn, .par, .nav-link, .btn-suscribir, .final, .timeout,.beeilen {
+    font-family: 'Open Sans', sans-serif;
+}
+.module-left {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid  #cac6c6;
+    font-size: 13px;
+    padding: 9px;
+}
+
+.address {
+    margin-right: 30px;
+    margin-left: 40px;
+    padding: 2px;
+}
+
+.email, .navbar-brand, .name-mission, .title, .btn:hover, .par, .hover-effect-cover li a, .hover-effect-cover li a:hover, .nav-link, .btn-suscribir, .final, .timeout {
+    color: #2188bb;
+}
+.email {
+    text-decoration: none;
+    padding: 2px;
+}
+
+.envelope {
+    padding: 8px;
+}
+
+.navbar-nav {
+    font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 25px;    
+}
+
+.navbar {
+    border-bottom: 1px solid #cac6c6;
+}
+
+.navbar-brand {
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.gray, .container, .address,.beeilen {
+    color: #666666;
+    }
+
+.centr {
+    font-size: 35px;
+}
+
+.mission {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.mission-name {
+    margin-left: 10%;
+}
+
+.mission-text {
+    margin-left: 15%;
+    padding: 25px;
+}
+
+.name-mission {
+    font-size: 25px;
+    margin-top: 15px;
+    
+}
+
+.title {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.container {
+    font-size: 17px;
+}
+
+.size {
+    font-size: 70px;
+}
+
+.btn {
+    color: #ffffff; 
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.tratar {
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #F2F1EB;
+}
+
+.tratamiento {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F2F1EB;
+}
+
+.par {
+    font-size: 18px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.parentPar {
+    position: relative;
+}
+
+/* HOVER EFFECT 1 */
+.hover-effect-cover {
+    list-style:none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.hover-effect-cover li {
+    position: relative;
+    width: 95%; /* Задаем ширину элемента списка с картинкой*/
+    display: inline-block;
+    background-color:#F2F1EB;
+    margin: 0;
+    border: 5px solid #F2F1EB;
+    box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+    .hover-effect-cover li a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 5px;
+        margin: 0 auto;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .hover-effect-cover li a:hover {
+        background: #fff;
+    }
+/* Выезжающий блок с текстом для панели снизу вверх */
+.hover-effect-cover li > div.effect-to-top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hover-effect-cover li:hover > div.effect-to-top {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.hover-effect-cover li div.effect-to-top {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Фон блока при наведении */
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    transform: translate(0px, 250px) rotate(0deg); /* Направление выезжающей панели */
+}
+.hover-effect-cover li:hover div.effect-to-top {
+    opacity: 1;
+    transform: translate(0px, 0px) rotate(0deg);
+}
+
+.nav-link {
+    font-size: 15px;
+}
+
+
+.heading{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+ 
+.timeout{ 
+    font-size: 25px; 
+} 
+.beeilen{ 
+    font-size: 15px; 
+} 
+.container{ 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+} 
+ 
+.sale{ 
+    background: #D2649A; 
+    height: 90px; 
+    width: 90px; 
+    border: 1px solid #E4C59E; 
+    margin-bottom: 40px; 
+} 
+ 
+.block{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+} 
+ 
+h3,h4{ 
+    color: #F1E4C3; 
+} 
+ 
+h3{ 
+    font-size: 15px; 
+} 
+ 
+.days,.hours,.minutes,.seconds{ 
+    font-size: 25px; 
+    margin-top: 12px; 
+}
+
+.aktion{
+    color: #D2649A;
+}
+
+.aktion:hover{
+    color: #2188bb;
+}
+
+
+@media all and (max-width:1280px) {
+    .heading{
+        margin-left: 3vh;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .wrapper {
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .heading{
+        margin-left: 7vh;
+
+    }
+    .container{
+        font-size: 23px;
+    }
+}
+
+@media all and (max-width:912px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .mission {
+        padding: 10px;
+    }
+
+    .mission-text {
+        margin-left: 5%;
+    }
+
+    .name-mission {
+        margin-top: 10px;
+    }
+}
+
+
+@media all and (max-width:768px) {
+    .heading{
+        margin-left: 2vh;
+    }
+}
+
+@media all and (max-width:540px) {
+    .size {
+        font-size: 46px;
+    }
+
+    .name-mission {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .mission {
+        padding: 0px;
+    }
+
+    .module-left {
+        font-size: 10px;
+    }
+    .heading{
+        font-size: 17px;
+    }
+
+    .container{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:430px) {
+    .mission {
+        flex-wrap: wrap;
+    }
+
+    .mission-name {
+        margin-left: 0px;
+    }
+
+    .module-left {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .address {
+        padding: 0px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .container{
+        font-size: 13px;
+    }
+
+    .timeout{
+        font-size: 17px;
+        margin-left: 30px;
+    }
+
+    .sale{
+        width: 70px;
+        height: 70px;
+    }
+    .heading{
+        margin-left: 0vh;
+    }
+    h3{
+        font-size: 13px;
+    }
+
+}
+
+@media all and (max-width:375px) {
+    .beschreibung{
+        font-size: 20px;
+    }
+    .kleine{
+        font-size: 12px;
+    }
+    .inform{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .below{
+        font-size: 0px;
+    }
+}
+
+
+
+
